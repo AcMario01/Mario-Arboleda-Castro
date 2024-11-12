@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(black, white);  /* Encabezado principal*/
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.caja-negra{
+    background-color: #fcd168;
+    text-align: center;
+    justify-content: center;
+    margin-right: 150px;
+    line-height: 3em;
+    height: 3em;
+ }
+
+.logo {
+    display: flex;
+    padding-bottom: 2em; /* Tamaño del degradado del encabezado*/
+    align-items: absolute;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 100px;
+}
+
+.login-logo {
+    width: 40px;  /* Cambia a un tamaño más pequeño o más grande según tus necesidades */
+    height: 40px; /* Mantén la proporción o ajusta como desees */
+    align-items: center;
+    display:flex ;
+    justify-content: end;
+    margin-left: 1100px;
+    margin-bottom: 35px;
+}
+
+nav a {
+    text-decoration: none; /* menu horizontal*/
+    color: #000000;
+    font-size: 16px;
+    
+}
+
+nav li {
+    display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+    margin-right: 220px; /* Espacio entre los ítems del menú */
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header .logo {
+    display: flex;   /*Texto alineado junto a la imagen del logo de Ping Pong*/
+    align-items: center;
+}
+
+header .logo img {   /* imagen del logo de Ping Pong*/
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.content-item {
+    background-color: #1f1d1d;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    text-align: center;
+    row-gap: 15px;
+    position:relative;
+    box-shadow: 5px 10px #888888
+}
+
+.content-item img { /* alineado de las viñetas */
+    width: 100%;
+    height: auto;
+    
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    transform: translate(0,25%);
+}
+
+.content-row {
+    display: flex;
+    gap: 125px; /*Margen entre viñetas */
+    
+}
+
+.caption {  /* Texto dentro de las viñetas*/
+    font-weight: bold;
+    margin-block-end: 15px;
+}
+
+footer {
+    background: linear-gradient(white, black);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    font-size: 0.9em;
+    margin-top: 325px ;
+}
